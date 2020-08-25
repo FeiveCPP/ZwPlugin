@@ -5,7 +5,6 @@
 #include <memory>
 #include <time.h>
 #include "api/Api.h"
-#include "log/Log.h"
 #include "net/Client.h"
 #include "net/Network.h"
 #include "net/strategies/FailoverStrategy.h"
