@@ -2,7 +2,6 @@
 #include <string.h>
 #include "api/Api.h"
 #include "api/Httpd.h"
-#include "log/Log.h"
 Httpd::Httpd(int port, const char *accessToken) :
     m_accessToken(accessToken),
     m_port(port),
