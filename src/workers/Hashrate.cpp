@@ -1,7 +1,6 @@
 #include <chrono>
 #include <cmath>
 #include <memory.h>
-#include "log/Log.h"
 #include "Options.h"
 #include "workers/Hashrate.h"
 inline const char *format(double h, char* buf, size_t size)
