@@ -1,5 +1,3 @@
-#include "log/Log.h"
-
 #ifndef __CRYPTONIGHT_X86_H__
 #define __CRYPTONIGHT_X86_H__
 
