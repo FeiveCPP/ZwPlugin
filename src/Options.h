@@ -72,7 +72,6 @@ private:
     bool m_safe;
     char *m_apiToken;
     char *m_apiWorkerId;
-    char *m_logFile;
     char *m_userAgent;
     int m_algo;
     int m_algoVariant;
