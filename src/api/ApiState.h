@@ -1,7 +1,6 @@
 #ifndef __APISTATE_H__
 #define __APISTATE_H__
 #include "api/NetworkState.h"
-#include "rapidjson/fwd.h"
 class Hashrate;
 class ApiState
 {
