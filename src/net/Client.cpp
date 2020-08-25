@@ -3,15 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <utility>
-#include "interfaces/IClientListener.h"
-#include "log/Log.h"
-#include "net/Client.h"
-#include "net/Url.h"
-#include "rapidjson/document.h"
-#include "rapidjson/error/en.h"
-#include "rapidjson/stringbuffer.h"
-#include "rapidjson/writer.h"
-#include "net/JobResult.h"
+#include "interfaces/IClientListener.h"#include "net/Client.h"
+#include "net/Url.h"#include "net/JobResult.h"
 #ifdef _MSC_VER
 #   define strncasecmp(x,y,z) _strnicmp(x,y,z)
 #endif
