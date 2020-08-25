@@ -5,7 +5,6 @@
 #include "net/Job.h"
 #include "net/SubmitResult.h"
 #include "net/Url.h"
-#include "rapidjson/fwd.h"
 
 class IClientListener;
 class JobResult;
