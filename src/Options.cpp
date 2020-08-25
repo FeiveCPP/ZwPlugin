@@ -8,7 +8,8 @@
 #include "Cpu.h"
 #include "net/Url.h"
 #include "Options.h"
-#include "Platform.h"#include "version.h"
+#include "Platform.h"
+#include "version.h"
 #ifndef ARRAY_SIZE
 #   define ARRAY_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 #endif
