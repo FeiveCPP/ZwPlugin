@@ -3,8 +3,6 @@
 
 #include <stdint.h>
 #include <vector>
-#include "rapidjson/fwd.h"
-
 class Url;
 struct option;
 
