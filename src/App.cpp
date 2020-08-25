@@ -3,9 +3,6 @@
 #include "Console.h"
 #include "Cpu.h"
 #include "crypto/CryptoNight.h"
-#include "log/ConsoleLog.h"
-#include "log/FileLog.h"
-#include "log/Log.h"
 #include "Mem.h"
 #include "net/Network.h"
 #include "Options.h"
@@ -30,14 +27,6 @@ App::App(int argc, char **argv) :
     m_options = Options::parse(argc, argv);
     if (!m_options) {
         return;
-    }
-    Log::init();
-    if (!m_options->background()) {
-        Log::add(new ConsoleLog(m_options->colors()));
-        m_console = new Console(this);
-    }
-    if (m_options->logFile()) {
-        Log::add(new FileLog(m_options->logFile()));
     }
     Platform::init(m_options->userAgent());
     Platform::setProcessPriority(m_options->priority());
