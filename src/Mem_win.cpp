@@ -7,7 +7,6 @@
 #else
 #   include <malloc.h>
 #endif
-#include "log/Log.h"
 #include "crypto/CryptoNight.h"
 #include "Mem.h"
 #include "Options.h"
