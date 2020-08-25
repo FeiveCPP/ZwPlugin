@@ -8,11 +8,7 @@
 #include "Cpu.h"
 #include "net/Url.h"
 #include "Options.h"
-#include "Platform.h"
-#include "rapidjson/document.h"
-#include "rapidjson/error/en.h"
-#include "rapidjson/filereadstream.h"
-#include "version.h"
+#include "Platform.h"#include "version.h"
 #ifndef ARRAY_SIZE
 #   define ARRAY_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 #endif
@@ -43,15 +39,12 @@ Options::Options(int argc, char **argv) :
     m_hugePages(true),
     m_ready(false),
     m_safe(false),
-    m_syslog(false),
     m_apiToken(nullptr),
     m_apiWorkerId(nullptr),
-    m_logFile(nullptr),
     m_userAgent(nullptr),
     m_algo(1),
     m_algoVariant(0),
     m_apiPort(0),
-    m_donateLevel(0),
     m_maxCpuUsage(100),
     m_printTime(100),
     m_priority(-1),
