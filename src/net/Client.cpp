@@ -3,8 +3,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <utility>
-#include "interfaces/IClientListener.h"#include "net/Client.h"
-#include "net/Url.h"#include "net/JobResult.h"
+#include "interfaces/IClientListener.h"
+#include "net/Client.h"
+#include "net/Url.h"
+#include "net/JobResult.h"
 #ifdef _MSC_VER
 #   define strncasecmp(x,y,z) _strnicmp(x,y,z)
 #endif
